@@ -9,7 +9,7 @@
 - **Debika Dharma Lingam** ([dd3873@nyu.edu](mailto:dd3873@nyu.edu), NetID: dd3873)  
 - **Yashavika Singh** ([ys6668@nyu.edu](mailto:ys6668@nyu.edu), NetID: ys6668)  
 
----
+------------------------------------
 
 ## 📌 Project Overview
 This project implements a **modified ResNet architecture** for CIFAR-10 image classification, optimized to achieve high accuracy while keeping the **parameter count under 5 million**.  
@@ -17,7 +17,7 @@ This project implements a **modified ResNet architecture** for CIFAR-10 image cl
 - ✅ **Achieved Validation Accuracy:** **95.60%**  
 - ✅ **Total Parameters:** **4,969,600** (Under the 5M limit)  
 
----
+------------------------------------
 
 ## 🏗 Model Architecture
 We have designed an **improved Pre-Activation ResNet** with several enhancements:
@@ -34,7 +34,7 @@ We have designed an **improved Pre-Activation ResNet** with several enhancements
 - **Optimized Residual Block Structure:**  
   - **[2, 2, 5, 3]** → **Deep representations without excessive parameters**  
 
----
+------------------------------------
 
 ## 🔥 Training Approach
 Our training methodology includes **advanced techniques** for better generalization & robustness:
@@ -45,7 +45,7 @@ Our training methodology includes **advanced techniques** for better generalizat
 - **📌 Comprehensive Augmentations** → Crops, flips, color jittering, random erasing  
 - **📌 AdamW Optimizer** → Improved weight decay regularization  
 
----
+------------------------------------
 
 ## 📊 Results
 
@@ -55,7 +55,7 @@ Our training methodology includes **advanced techniques** for better generalizat
 | **Best Validation Accuracy** | **95.60%** |
 | **Training Time**      | ~75 minutes         |
 
----
+------------------------------------
 
 ## 🛠 Installation & Requirements
 To run the project, install the following dependencies:
