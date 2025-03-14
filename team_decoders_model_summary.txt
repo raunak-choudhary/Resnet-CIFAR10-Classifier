@@ -1,0 +1,43 @@
+MODEL SUMMARY
+==================================================
+Model Architecture: ImprovedPreActResNet with Mish activation and CBAM attention
+Total Parameters: 4,969,600
+Best Validation Accuracy: 95.60%
+Best Training Accuracy: 94.54%
+
+Training Configuration:
+- Epochs: 200
+- Optimizer: AdamW with weight decay 0.005
+- Learning Rate Schedule: OneCycleLR (max_lr=0.002)
+- Batch Size: 128
+- Loss Function: Label Smoothing (smoothing=0.05)
+- Data Augmentation: RandomCrop, RandomHorizontalFlip, ColorJitter, RandomErasing
+- Advanced Augmentation: CutMix (probability=0.25)
+
+Model Highlights:
+- Pre-activation residual blocks
+- Mish activation function
+- CBAM attention mechanism
+- Strategic dropout (rate=0.05)
+- Channel progression: 30→60→120→240
+- Residual block structure: [2, 2, 5, 3]
+
+Per-Class Validation Accuracy:
+- airplane: 96.20%
+- automobile: 97.90%
+- bird: 94.40%
+- cat: 89.30%
+- deer: 96.30%
+- dog: 92.20%
+- frog: 97.40%
+- horse: 96.90%
+- ship: 98.40%
+- truck: 97.00%
+
+Training Time Information:
+- Total Training Time: Not recorded
+
+File Information:
+- Best Model Path: /home/rc5553/ondemand/data/DL_Project_1_Raunak/extracted_data/final-data/best_model.pth
+- Final Model Path: /home/rc5553/ondemand/data/DL_Project_1_Raunak/extracted_data/final-data/final_model.pth
+- Submission File Path: /home/rc5553/ondemand/data/DL_Project_1_Raunak/extracted_data/final-data/final_attempt_kaggle_submission.csv
